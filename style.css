@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    padding-top: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.home-nav{
+    display: flex;
+    margin-left: 370px;
+}
+.home-nav li {
+    /* margin-left: 3px; */
+    margin: 30px;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(55, 55, 56); 
+}
+.navbar a:hover{
+    color: rgb(10, 10, 129); 
+}
+.home-nav {
+    list-style: none;
+}
+/* section */
+.truck-image{
+        height: 800px;
+        width: 100%;
+    background-image: linear-gradient(rgba(2, 7, 46, 0.6),rgba(15, 5, 100, 0.6)), url(/image/tyty.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+}
+.logo2 img{
+    margin-top: 300px;
+    width: 95%;
+    height: 18
+    %;
+    /* margin-left: 35px; */
+}
+.logo2 h1{
+    /* margin-left: 50px; */
+    color: white;
+    font-size: 60px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-style: normal;
+    margin-top: 15PX;
+}
+.logo2 p{
+    /* margin-left: 50px; */
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Tinos", serif;
+    margin-top: 15PX;
+}
+.logo2{
+    width: 50%;
+    margin-left: 70px;
+}
+.button{
+    margin-top: 350px;
+    display: inline-block;
+    width: 40%;
+}
+.button button{
+    display: block;
+    /* margin-right: 400px; */
+    width: 350px;
+    padding: 20px;
+    margin: 10px;
+    font-size: 16px;
+}
